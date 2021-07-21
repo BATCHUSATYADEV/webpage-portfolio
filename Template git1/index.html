@@ -1,0 +1,167 @@
+<html>
+	<head>
+		<title>bootstrap</title>
+		
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+		<!-- jQuery library -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<!-- Latest compiled JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    		<meta charset="utf-8">
+	                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	  	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+		body{margin:0px;padding:0px;}
+		.A{background:#2C3E50;padding:10px;}
+		.A1{color:white;}.A2{float:right;}
+		.new{background:#2C3E50;color:white;}
+		.menu_list{color:white;}
+		.menu_list:hover{background:#2C3E50;color:#2C3E50;}
+		.B{background:#18BC9C;}
+		.B hr{color: white;
+			background-color: white;
+			height: 5px;width:20%;}
+		.D1{height:520px;}
+		.E{background:#18BC9C;}
+		.E1 p{font-size:20px;color:white;align:left;}
+		.down_btn{background:#18BC9C;border:2px solid #88DBCB;color:white;}
+		.down_btn:hover{background:white;border:2px solid #ddd4d4;color:#6d5e5e;}
+		.send_btn{background:#18BC9C;border:2px solid #88DBCB;color:white;}
+		.send_btn:hover{background:#88DBCB;border:2px solid black;color:white;}
+		.p hr{color: white;
+			background-color: #2C3E50;
+			height: 5px;width:20%;}
+		.G{width:60%;}
+		.J{background:#2C3E50;padding:40px;}
+		</style>
+		<script>
+		function change()
+		{	document.getElementById("pic1").style.display = "none";
+			document.getElementById("pic2").style.display = "block";
+			
+			document.getElementById("1").style.display = "none";
+			document.getElementById("2").style.display = "block";
+		}
+		
+		function change1()
+		{	document.getElementById("pic2").style.display = "none";
+			document.getElementById("pic1").style.display = "block";
+			
+			document.getElementById("2").style.display = "none";
+			document.getElementById("1").style.display = "block";
+		}
+			
+
+			/*if(document.getElementById("pic1").style.display = "block")
+			{
+			document.getElementById("pic1").style.display = "none";
+			document.getElementById("pic2").style.display = "block";
+			}
+			else if(document.getElementById("pic1").style.display = "none")
+			{
+			document.getElementById("pic1").style.display = "block";
+			document.getElementById("pic2").style.display = "none";
+			}
+			else{}*/
+		
+		
+		</script>
+	</head>
+	<body>
+		<div class="">
+			<div class="row A">
+				<div class="col-md-4 col-xs-12 A1 text-center"><h2>START BOOTSTRAP</h2></div>
+				<div class="col-md-4 col-xs-12 A2 "><b>
+
+
+					 <ul class="nav navbar-nav new">
+  				      	<li ><a href="#A" class="menu_list">PORTFOLIO</a></li>
+  			   	   	<li><a href="#ABOUT" class="menu_list">ABOUT</a></li>
+			   	     	<li><a href="#CONTACT" class="menu_list">CONTACT</a></li> 
+					</ul></b>  </div>  
+
+				  </div>
+			</div>
+			<div class="row B text-center"><br><br><br><br><br><br><br><br><br>
+					<center><img src="profile.png " style="display:block; " id="pic1"></center>
+					<center><img src="profile2.png" style="display:none;" id="pic2"></center><br>
+					<h1 style="font-size:80px; color:white;"><b>START BOOT STRAP</b></h1>
+					<center><button class="btn down_btn " id="1" onclick="change()" type="button"><h4>change img</h4></button>
+					<button class="btn down_btn " id="2" onclick="change1()" style="display:none; type="button"><h4>change img</h4></button></center>
+					<hr class="star-light"></hr>
+					<h3 style="color:white;">Web Developer - Graphic Artist - User Experience Designer</h3>
+					<br><br><br>
+			</div><br><br>
+			
+			<section class="portfolio" id="A"><div class="container">
+     
+  	
+				<div class="row C text-center">
+				<h1 style="font-size:50px;color:#2C3E50;"><b>PORTFOLIO</b></h1><hr><br><br>
+				
+				</div>
+				<div class="row D">
+				<div class="col-md-4 col-xs-12 D1">
+				<img src="cabin.png" height="50%" >
+				<img src="Game.png" height="50%">
+				</div>
+				<div class="col-md-4 col-xs-12 D1">
+				<img src="cake.png" height="50%" >
+				<img src="safe.png" height="50%">
+				</div>
+				<div class="col-md-4 col-xs-12 D1">
+				<img src="circus.png" height="50%" >
+				<img src="submarine.png" height="50%">
+				</div>
+				</div><br><br>
+			</div>  </section><section class="ABOUT" id="ABOUT">
+			<div class="row E text-center"><br><br><br><h1 style="color:white;font-size:50px; "><b>ABOUT</b></h1>
+			<div class="container text-left ">
+				<hr><div class="col-md-2 col-xs-12   "></div>
+					<div class="col-md-5 col-xs-12 E1  "><p>Freelancer is a free bootstrap theme <br>created by Start Bootstrap. The<br> download includes the complete source <br>files including HTML, CSS, and<br> JavaScript as well as optional LESS <br>stylesheets for easy customization.</p></div>
+					<div class="col-md-5 col-xs-12 E1 text-left  "><p>Whether you're a student looking to<br> showcase your work, a professional<br> looking to attract clients, or a graphic <br>artist looking to share your projects, this<br> template is the perfect starting point!</p></div>
+					
+			</div><br>
+				<button class="btn down_btn"><a href="C:\Users\admin.POLY-LAB4-038\Desktop\satyadev\template 4-2.rar"><h4>Download Now!</h4></a></button> <br><br><br><br>
+			</div><br><br><br></section>
+				<section class="CONTACT" id="CONTACT"><div class="container P ">
+				<h1 class="text-center text-uppercase text-secondary mb-0" style="color:#2C3E50;"><b>Contact Me</b></h1>
+				<hr>
+				
+				<center>
+				<form class="G text-left ">
+    <div class="form-group">
+      <label for="usr">Name:</label>
+      <input type="text" class="form-control" id="usr" placeholder="Name">
+    </div>
+    <div class="form-group">
+      <label for="Email">Email:</label>
+      <input type="Email" class="form-control" id="Email" placeholder="Email" >
+    </div>
+<div class="form-group">
+      <label for="phone number">Phone Number:</label>
+      <input type="Phone Numberl" class="form-control" id="Phone Number" placeholder="Phone Number">
+    </div>
+<div class="form-group">
+  <label for="comment">Message:</label>
+  <textarea class="form-control" rows="5" id="Message" placeholder="Message"></textarea>
+</div>
+  </form><br><br><button class="btn send_btn"><h4>SEND</h4></button></center></div>
+				
+				
+<br><br><br></section>
+				<div class="row J"><br><br>
+					<div class="col-md-6 col-xs-12 text-center " style="color:white;"><h3>LOCATION</h3><h4>2215 John Daniel Drive <br>Clark, MO 65243</h4></div>
+					<div class="col-md-6 col-xs-12 text-center" style="color:white; font-size:20px;"><h3>ABOUT FREELANCER</h3><h4>Freelance is a free to use, open source <br>Bootstrap theme created by<a style="color:green; " href="https://startbootstrap.com/"> Start<br>  Bootstrap.</a></h4></div>
+					<br><br><br>
+				</div>
+				<div class="row Z">
+					<div class="col-md-12 col-xs-12 text-center " style="color:white;background:#1A252F;padding:40px;">Copyright © Your Website 2018</div> 
+				</div>
+			</div>
+	</body>
+</html>
